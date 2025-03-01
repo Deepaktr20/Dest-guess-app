@@ -26,7 +26,7 @@ Globetrotter is a fun and interactive web app where users guess destinations bas
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/Deepaktr20/Dest-guess-app.git
+   git clone [https://github.com/Deepaktr20/Dest-guess-app.git](https://github.com/Deepaktr20/Dest-guess-app.git)
    cd destination-guessing-app 
    ```
 
