@@ -1,46 +1,69 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Globetrotter - Destination Guessing Game
 
-## Available Scripts
+Globetrotter is a fun and interactive web app where users guess destinations based on cryptic clues, fun facts, and trivia. The app includes animated feedback, scoring, and a "Challenge a Friend" feature for an engaging experience.
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+✅ **Guess the Destination** - Users get 1-2 random clues and must select the correct destination from multiple choices.
+✅ **Instant Feedback** -
+  - 🎉 Correct Answer: Confetti animation + fun fact.
+  - 😢 Incorrect Answer: Sad-face animation + fun fact.
+✅ **Score Tracking** - Displays total correct and incorrect answers.
+✅ **Play Again/Next** - Users can load a new destination and continue playing.
+✅ **Challenge a Friend** -
+  - Users enter a unique username and invite friends to play.
+  - The invite link shows the inviter's score before the game starts.
+  - Anyone with the invite link can play the game.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🛠 Tech Stack
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Frontend:** React, TypeScript, Tailwind CSS
+- **Backend:** Firebase
+- **Other Tools:** Gemini AI
 
-### `npm test`
+## 📂 Installation & Setup
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/Deepaktr20/Dest-guess-app.git
+   cd destination-guessing-app 
+   ```
 
-### `npm run build`
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Setup Firebase API Key:**
+   - Create a `.env` file in the root directory.
+   - Add the following environment variables:
+     ```env
+     GEMINI_API_KEY=your_gemini_api_key_here
+     REACT_APP_FIREBASE_API_KEY=your_firebase_api_key_here
+     REACT_APP_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain_here
+     REACT_APP_FIREBASE_PROJECT_ID=your_firebase_project_id_here
+     REACT_APP_FIREBASE_STORAGE_BUCKET=your_firebase_storage_bucket_here
+     REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_firebase_messaging_sender_id_here
+     REACT_APP_FIREBASE_APP_ID=your_firebase_app_id_here
+     ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. **Run the app:**
+   ```sh
+   npm start
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🎯 How to Play
+1. A destination is selected randomly from the backend.
+2. The user is presented with cryptic clues.
+3. The user selects the correct answer from multiple choices.
+4. Instant feedback is provided with animations and fun facts.
+5. Users can track their score and challenge friends!
 
-### `npm run eject`
+## 🔥 Contributing
+Feel free to submit pull requests to improve the dataset, UI, or features.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 📜 License
+This project is licensed under the MIT License.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Enjoy the game and happy guessing! 🌍✨
